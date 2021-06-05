@@ -1,0 +1,359 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+.section {
+  background: #FCD41D;
+  overflow: hidden;
+}
+.bg {
+  position: absolute;
+  transform: scale(1.2,1.4);
+  opacity: 0;
+}
+/* 第一页 */
+.section1 .title {
+  width: 25rem;
+  margin: 0 auto;
+  position: relative;
+  top: -15%;
+}
+.section1 .introduction {
+  position: relative;
+  width: 12.5rem;
+  /* left: 25%; */
+  left: -40%;
+  top: 10%;
+}
+.section1 .body {
+  width: 9.375rem;
+  position: absolute;
+  top: 34.375rem;
+  left: 5.625rem;
+}
+.section1 .eye {
+  width: 3.75rem;
+  position: absolute;
+  /* top: 38.125rem; */
+  left: 8.75rem;
+}
+.section1 .bizi {
+  width: .625rem;
+  position: absolute;
+  top: 39.375rem;
+  left: 10.3125rem;
+}
+.section1 .zui {
+  width: 4.375rem;
+  position: absolute;
+  top: 41.5rem;
+  left: 8.4375rem;
+}
+.section1 .lingdai {
+  width: 6.25rem;
+  position: absolute;
+  top: 56.25rem;
+  left: 7.1875rem;
+}
+.section1 .tui {
+  position: absolute;
+  width: 34.375rem;
+  top: 51.25rem;
+  left: -2.8125rem;
+}
+.section1 .left {
+  width: 4.375rem;
+  position: absolute;
+  top: 43.75rem;
+  left: -2.1875rem;
+}
+.section1 .right {
+  width: 4.6875rem;
+  position: absolute;
+  top: 43.625rem;
+  left: 14.0625rem;
+}
+.section1 .content {
+  width: 12.5rem;
+  position: absolute;
+  /* left: 18.4375rem; */
+  left: 33.6rem;
+  top: 31.25rem;
+  transform: rotate(6deg);
+}
+.section1 .people {
+  opacity: 0;
+}
+
+/* 第二页 */
+.section2 .top {
+  width: 100%;
+  height: 14.375rem;
+  position: absolute;
+  top: -25%;
+  opacity: 0;
+}
+.section2 .content {
+  width: 32.5rem;
+  height: 33.125rem;
+  position: absolute;
+  top: 18.75rem;
+  left: 28.2rem;
+  opacity: 0;
+}
+.section2 .text {
+  width: 20.625rem;
+  height: 27.5rem;
+  position: absolute;
+  top: 22.5rem;
+  /* left: 7.5rem; */
+  left: -20rem;
+  box-sizing: border-box;
+  padding-top: .625rem;
+  opacity: 0;
+}
+.section2 .text li {
+  font-size: 1.375rem;
+  margin-top: 1.25rem;
+  font-family: "楷体";
+}
+
+/* 第三页 */
+.section3 .people {
+  width: 12.5rem;
+  position: absolute;
+  top: 18.75rem;
+  left: 1.875rem;
+  transform: scale(1.5,1.5);
+  opacity: 0;
+}
+.section3 .title {
+  width: 15rem;
+  position: absolute;
+  /* top: 6.25rem; */
+  left: 9.375rem;
+  text-align: center;
+  opacity: 0;
+}
+.section3 .title span {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 4.0625rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+.section3 .text {
+  width: 18.75rem;
+  height: 31.25rem;
+  position: absolute;
+  right: 0;
+  top: 14.375rem;
+}
+.section3 .text .dui {
+  width: 5rem;
+  position: absolute;
+  left: 8.125rem;
+  transform: scale(0.1,0.1);
+  opacity: 0;
+}
+.section3 .text .text_content {
+  width: 18.75rem;
+  height: 5rem;
+  background: url('../imgs/page3/text.webp') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  margin-top: 5rem;
+  left: 13.75rem;
+  display: flex;
+  line-height: 5rem;
+  opacity: 0;
+}
+.section3 .text .text_content span {
+  flex: 3.5;
+  box-sizing: border-box;
+  padding-left: .9375rem;
+  text-align: center;
+  font-size: 1.5625rem;
+}
+.section3 .text .text_content a {
+  flex: 12;
+  text-align: center;
+  
+  font-size: 1.5rem;
+}
+
+/* 第四页 */
+.section4 .paper {
+  width: 33.75rem;
+  position: absolute;
+  top: 3.75rem;
+}
+.section4 .paper img {
+  opacity: 0;
+  transform: scale(0.3,0.3);
+}
+.section4 .title {
+  position: absolute;
+  top: 13.75rem;
+  left: 6rem;
+  display: flex;
+}
+.section4 .title li {
+  font-size: 3.125rem;
+  width: 4.375rem;
+  height: 4.375rem;
+  border: 2px solid black;
+  text-align: center;
+  margin-left: .625rem;
+  border-radius: 2.0625rem;
+  transform: scale(0.1,0.1);
+  opacity: 0;
+}
+.section4 .content {
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+  top: 18.75rem;
+  left: 5rem;
+}
+.section4 .content .o {
+  width: 7.5rem;
+  height: 7.5rem;
+  position: absolute;
+  left: 17.5rem;
+  top: 10rem;
+  transform: scale(0.1,0.1);
+  opacity: 0;
+}
+.section4 .content .time i {
+  width: .9375rem;
+  height: 2.1875rem;
+  background: rgb(252, 218, 42);
+  margin-right: .625rem;
+}
+.section4 .content .time {
+  display: flex;
+  height: 2.1875rem;
+  line-height: 2.1875rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  position: relative;
+  left: -9.375rem;
+  opacity: 0;
+}
+.section4 .content .name {
+  position: relative;
+  font-size: 1.5625rem;
+  left: -9.375rem;
+  opacity: 0;
+}
+.section4 .content .neirong {
+  font-size: 1.125rem;
+  color: #B5B5B4;
+  margin-bottom: .625rem;
+  transform: rotateX(180deg);
+  opacity: 0;
+  width: 16rem;
+  max-height: 9.375rem;
+  display: -webkit-box;/** 对象作为伸缩盒子模型显示 **/
+  word-break: break-all;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;/** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 4;/** 显示的行数 **/
+  overflow: hidden;
+}
+.section4 .content .neirong p {
+  font-size: 1.4375rem;
+  margin: 0;
+  padding: 0;
+  color: #6A6A6A;
+}
+
+/* 第五页 */
+.section5 .paper {
+  width: 33.75rem;
+  position: absolute;
+  top: 3.75rem;
+}
+.section5 .paper img {
+  opacity: 0;
+  transform: scale(0.3,0.3);
+}
+.section5 .title {
+  position: absolute;
+  top: 13.75rem;
+  left: 6rem;
+  display: flex;
+}
+.section5 .title li {
+  font-size: 3.125rem;
+  width: 4.375rem;
+  height: 4.375rem;
+  border: 2px solid black;
+  text-align: center;
+  margin-left: .625rem;
+  border-radius: 2.0625rem;
+  transform: scale(0.1,0.1);
+  opacity: 0;
+}
+.section5 .content1 {
+  width: 15rem;
+  height: 7.5rem;
+  position: absolute;
+  top: 38rem;
+  left: -14rem;
+  opacity: 0;
+}
+.section5 .content2 {
+  width: 10rem;
+  height: 16.25rem;
+  position: absolute;
+  top: 20rem;
+  left: 6rem;
+  transform: scale(0.2,0.2);
+  opacity: 0;
+}
+.section5 .content3 {
+  width: 10rem;
+  height: 16.25rem;
+  position: absolute;
+  top: 20rem;
+  left: 18rem;
+  transform: scale(0.2,0.2);
+  opacity: 0;
+}
+
+/* 第六页 */
+.section6 .me {
+  top: 5rem;
+  font-size: 3.75rem;
+  font-family: "楷体";
+  position: absolute;
+  left: -8.75rem;
+  z-index: 9;
+  opacity: 0;
+}
+.section6 .span_bg {
+  width: 18.75rem;
+  height: 2.5rem;
+  background: #fff;
+  position: absolute;
+  right: -7.875rem;
+  top: 7.8rem;
+  opacity: 0;
+}
+.section6 .erwm {
+  width: 18.75rem;
+  position: absolute;
+  top: 15rem;
+  right: -6.875rem;
+  opacity: 0;
+}
+.section6 .wao {
+  position: absolute;
+  bottom: -3.875rem;
+  height: 25rem;
+  width: 100%;
+  opacity: 0;
+}
